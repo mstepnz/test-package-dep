@@ -1,9 +1,10 @@
 import SwiftUI
 import Playgrounds
+import Numerics
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("e = \(Double.exp(1.0))")
             .padding()
     }
 }
